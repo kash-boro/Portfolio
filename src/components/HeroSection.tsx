@@ -2,7 +2,11 @@ import { motion } from "motion/react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+<<<<<<< HEAD
 import profileImage from "../assets/images/profile.png";
+=======
+import heroImage from "./assets/images/Gemini_Generated_Image_87jo3487jo3487jo.png";
+>>>>>>> 580c9787bb9461da44cf74f51cf3cbda24e2bfea
 
 const roles = ["Problem Solver 🤯", "Coder 💻", "Tech Explorer 🚀", "AI Enthusiast 🤖"];
 
@@ -109,8 +113,13 @@ export function HeroSection() {
 
         {/* Portrait */}
         <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl ring-4 ring-white/50 backdrop-blur-sm">
+<<<<<<< HEAD
           <ImageWithFallback
             src={profileImage}
+=======
+          <img
+            src={heroImage}
+>>>>>>> 580c9787bb9461da44cf74f51cf3cbda24e2bfea
             alt="Kashmira Borgoyary"
             className="w-full h-full object-cover"
           />
