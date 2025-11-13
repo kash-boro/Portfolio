@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import profileImage from "../assets/images/profile.png";
 
 const roles = ["Problem Solver 🤯", "Coder 💻", "Tech Explorer 🚀", "AI Enthusiast 🤖"];
 
@@ -106,10 +105,9 @@ export function HeroSection() {
         {/* Profile Image */}
         <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl ring-4 ring-white/50 backdrop-blur-sm">
           <ImageWithFallback
-            src={profileImage}
-            alt="Kashmira Borgoyary"
-            className="w-full h-full object-cover"
-          />
+          src="/images/profile.png"
+          alt="Kashmira Borgoyary"
+  className="w-full h-full object-cover"/>
         </div>
       </motion.div>
 
