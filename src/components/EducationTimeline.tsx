@@ -13,26 +13,24 @@ interface Education {
 
 const education: Education[] = [
   {
-    degree: "Master of Computer Applications (AIML)",
-    institution: "Lovely Professional University",
-    duration: "2023 - 2025",
-    description: "Specialization in Artificial Intelligence and Machine Learning",
+    degree: "Master of Computer Applications (MCA)",
+    institution: "Your University",
+    duration: "2025 - Pursuing",
+    description: "Currently pursuing Master's degree in Computer Applications",
     color: "#7DECC6",
   },
   {
     degree: "Bachelor of Computer Applications (BCA)",
-    institution: "Assam Don Bosco University",
-    duration: "2020 - 2023",
+    institution: "Your University",
+    duration: "2022 - 2025",
     description: "Foundation in Computer Science and Applications",
-    cgpa: "9.01 CGPA",
     color: "#C6B4FF",
   },
   {
-    degree: "Class 12 (Science)",
-    institution: "St. Mary's Sr. Sec. School",
-    duration: "2018 - 2020",
-    description: "Science stream with focus on Mathematics and Computer Science",
-    percentage: "86.6%",
+    degree: "Class 12",
+    institution: "Your School",
+    duration: "2020 - 2022",
+    description: "Higher Secondary Education",
     color: "#DDF2FF",
   },
 ];
