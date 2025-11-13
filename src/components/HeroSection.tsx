@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import heroImage from "./assets/images/Gemini_Generated_Image_87jo3487jo3487jo.png";
 
 const roles = ["Problem Solver 🤯", "Coder 💻", "Tech Explorer 🚀", "AI Enthusiast 🤖"];
 
@@ -109,7 +110,7 @@ export function HeroSection() {
         {/* Portrait */}
         <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl ring-4 ring-white/50 backdrop-blur-sm">
           <img
-            src="/images/profile.png"
+            <img src={heroImage} />
             alt="Kashmira Borgoyary"
             className="w-full h-full object-cover"
             onError={(e) => {
