@@ -42,7 +42,7 @@ export function CertificationsSection() {
         transition={{ duration: 0.8 }}
         className="text-4xl md:text-5xl text-center mb-16 bg-gradient-to-r from-[#7DECC6] to-[#C6B4FF] bg-clip-text text-transparent"
       >
-        Certifications
+        Certificates
       </motion.h2>
 
       <div className="grid md:grid-cols-3 gap-8">
