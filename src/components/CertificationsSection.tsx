@@ -18,7 +18,7 @@ const certifications = [
     description:
       "In-depth certification covering core Java concepts, OOP principles, data structures, and advanced programming techniques.",
     icon: "☕",
-    link: "https://drive.google.com/file/d/1NwPk3NMYdWdC9mAWban9i9WWMbseCyeR/view",
+    link: "https://drive.google.com/file/d/1og0dKowe-twrnEUvDHg_6k9MUxqH5Nc5/view?usp=sharing",
   },
   {
     title: "Database Technologies",
